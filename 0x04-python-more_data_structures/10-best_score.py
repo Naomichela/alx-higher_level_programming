@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 #!/usr/bin/python3
 def best_score(a_dictionary):
+=======
+t_score(a_dictionary):
+>>>>>>> c065d8bd456b6475a876a0882686e02710b80099
     if a_dictionary is None or len(a_dictionary) == 0:
         return None
 

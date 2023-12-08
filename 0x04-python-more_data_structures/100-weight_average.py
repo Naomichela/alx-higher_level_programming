@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/python3
 def weight_average(my_list=None):
     if my_list is None:
@@ -15,3 +16,11 @@ def weight_average(my_list=None):
     else:
         weighted_average = weighted_product / total_weight
     return weighted_average
+=======
+ght_average = __import__('100-weight_average').weight_average
+
+my_list = [(1, 2), (2, 1), (3, 10), (4, 2)]
+# = ((1 * 2) + (2 * 1) + (3 * 10) + (4 * 2)) / (2 + 1 + 10 + 2)
+result = weight_average(my_list)
+print("Average: {:0.2f}".format(result))
+>>>>>>> c065d8bd456b6475a876a0882686e02710b80099

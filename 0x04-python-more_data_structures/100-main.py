@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 #!/usr/bin/python3
 weight_average = __import__('100-weight_average').weight_average
+=======
+ght_average = __import__('100-weight_average').weight_average
+>>>>>>> c065d8bd456b6475a876a0882686e02710b80099
 
 my_list = [(1, 2), (2, 1), (3, 10), (4, 2)]
 # = ((1 * 2) + (2 * 1) + (3 * 10) + (4 * 2)) / (2 + 1 + 10 + 2)
